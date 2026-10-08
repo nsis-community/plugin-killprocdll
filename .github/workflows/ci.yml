@@ -28,4 +28,5 @@ jobs:
             Contrib/KillProcDLL/KillProcDLL.cpp
             Contrib/KillProcDLL/StdAfx.cpp
           strict: false
+          targets: x86-ansi
           release: ${{ github.event_name == 'release' }}
